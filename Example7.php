@@ -28,5 +28,5 @@ class ExampleClass extends AbstractClass
     }
 }
 
-ExampleClass::getInstance(1)->printVariableFromAbstractClass();
-ExampleClass::getInstance(2)->printVariableFromAbstractClass();
+ExampleClass::getInstance(1)->printVariableFromAbstractClass();// value = 1
+ExampleClass::getInstance(2)->printVariableFromAbstractClass();// value = 1
